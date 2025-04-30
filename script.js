@@ -40,3 +40,10 @@ function Adivinhar(){
         }
     }
 }
+
+function mostrar_dica(){ //a função 'void' não retorna um valor
+    paragrafo_dicas.textContent = `Dica: ${dicas[0]}` //Vale ressaltar que deve estar entre crase para funcionar. Mas
+    // eu poderia concatenar fazendo assim também: "Dica: " + dicas[0]. Todavia, o sinal de + não é uma soma 
+    // e, sim, concatenar string.
+
+}
